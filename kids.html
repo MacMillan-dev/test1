@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+   <h4>Search our database for children to adopt from trusted children' home we have partnered with using the following criteria</h4>
+    <div id="formbox">
+        <form class="categories">
+            <b>GENDER</b><br>
+            <select name="SELECT">
+                <option value="Any gender">No preference</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </select><br>
+               <b> Age of Children</b><br>
+                <div class="age">
+                    Youngest<br>
+                <select name="SELECT">
+                    <option value="infant">Infant</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    <option value="six">6</option>
+                    <option value="seven">7</option>
+                    <option value="eight">8</option>
+                    <option value="nine">9</option>
+                    <option value="ten">10</option>
+                    <option value="eleven">11</option>
+                    <option value="twelve">12</option>
+                    <option value="thirteen">13</option>
+                    <option value="fourteen">14</option>
+                    <option value="fifteen">15</option>
+                    <option value="sixteen">16</option>
+                    <option value="seventeen">17</option>
+                    <option value="eighteen">18</option>
+                    </select><br>
+                    Oldest<br>
+                    <select name="SELECT">
+                        <option value="nineteen">19</option>
+                    <option value="twenty">20</option>
+                    <option value="twentyone">21</option>
+                    </select>
+                    </div>
+                    <p><b> Location</b></p>
+                    <input type="radio" id="location" name="preferred location" value="location">
+                    <label for="location">Nairobi</label><br>
+                    <input type="radio" id="location" name="preferred location" value="location">
+                    <label for="location">Rest of Kenya</label><br>
+                    <p><b>RacialComposition:</b></p>
+                    <input type="radio" id="race" name="preferred race" value="race">
+                    <label for="race">Do not search based on race</label><br>
+                    <input type="radio" id="race" name="preferred race" value="race">
+                     <label for="race">Search based on single race</label><br>
+                    <input type="radio" id="race" name="preferred race" value="race">
+                    <label for="race">Search based on multiracial</label><br>
+                    <input type="radio" id="javascript" name="preferred race" value="JavaScript">
+                    <label for="race">Search children who are either single race or multiracial</label>
+
+
+        </form>
+        <button>Search</button>
+    </div>
+    
+    <script src="project.js"></script>
+</body>
+</html>
